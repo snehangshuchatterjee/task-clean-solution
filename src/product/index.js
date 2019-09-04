@@ -8,9 +8,6 @@ import Rebate from "../rebate";
  * Currently I have assumed that the main focus of this application 
  * is on the type of product and its price
  * 
- * Also, I have assumed that the only product specific details are 
- * @productTypePrice
- * 
  * further requirements can be incorporated by altering this class
  * as per the new requirements
  */
@@ -57,7 +54,7 @@ export default class Product {
      * but can be extended later
      */
     setProductRebate = () => {
-        var rebate = 0,
+        let rebate = 0,
             isRebateApplicable = this.isProductPublishedToday();
 
         if (this.currentProductType === "new" && isRebateApplicable) {

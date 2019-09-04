@@ -20,7 +20,7 @@ To Run the application on your local system, perform the following steps:
     npm run test
     ```
 
-### Unit Test Coverage()
+### Unit Test Coverage
 
 To Generate the Coverage report, perform the following steps:
 

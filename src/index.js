@@ -1,9 +1,9 @@
 import Calculator from "./calculator";
 
-var userType = 1;
-var productType = 0;
-var price = 110;
-var publishedDate = new Date();
+const userType = 1;
+const productType = 0;
+const price = 100;
+const publishedDate = new Date();
 
 const calc = new Calculator(userType, productType, price, publishedDate);
 
